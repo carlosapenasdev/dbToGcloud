@@ -4,7 +4,7 @@ Na [Icoop](http://icoopweb.com.br/), temos tido problemas de indisponibilidade d
 
 Ao migrar as bases para o gCloud, tinha a opção e fazer tudo manualmente, ou automatizar. Escolhi a secunda opção, e com 2horas e meia de programação, pude migrar 16 BD completamente para a estrutura do google. //Temos que migrar mais uns 90 =) //
 
-## O que esse codigo faz?
+## O que esse código faz?
 A intenção dele é replicar a mesma base de dados, com o mesmo usuário e senha do host antigo para o gCloud.
 
 - criar usuários para base de dados no gCloud
@@ -13,6 +13,9 @@ A intenção dele é replicar a mesma base de dados, com o mesmo usuário e senh
 - limitar Acesso Usuario Sua Database no gCloud
 - download Base de dados no host antigo
 - upload base dados no gCloud
+
+## Requisitos:
+- [gCloud SDK](https://cloud.google.com/sdk/?hl=pt-br) instalado e configurado para o projeto que receberá as bases.
 
 ## Como usar?
 Modifique o arquivo CONFIG.php para a sua realidade. Para nós, basta conectar a uma base de dados que contem nossa lista de BDs que gerenciamos, e com uma query, obtenho uma lista com todas as bases a serem migradas.
