@@ -1,5 +1,7 @@
 # dbToGcloud
 
+[<img src="https://cloud.google.com/images/social-icon-google-cloud-1200-630.png" width="100" alt="gcloud">](https://cloud.google.com/)
+
 Na [Icoop](http://icoopweb.com.br/), temos tido problemas de indisponibilidade do BD com o atual host de hospedagem, quando os BDs voltam, voltam backups antigos, com perda de informação, o que é inaceitável.
 
 Ao migrar as bases para o gCloud, tinha a opção e fazer tudo manualmente, ou automatizar. Escolhi a secunda opção, e com 2horas e meia de programação, pude migrar 16 BD completamente para a estrutura do google. //Temos que migrar mais uns 90 =) //
